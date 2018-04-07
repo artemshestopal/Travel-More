@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+@font-face{
+	font-family: 'Aleo';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/aleo-regular-webfont.woff') format('woff'),
+		url('../fonts/aleo-regular-webfont.woff2') format('woff2');
+}
+
+body{
+	font: 400 16px/1.6 'Josefin Sans',sans-serif;
+	color:  #e8e8e8;
+	letter-spacing: 0.1em;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1150px;
+}
+h1,h2,h3,h4,h5{
+	font-weight: 700;
+	margin: 0;
+
+}
+a{
+	text-decoration: none;
+
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	background-color: #5474fd;
+	border: 2px solid ;
+	padding-right: 30px;
+	font-size: 16px;
+	padding-left: 33px;
+	/* text-transform: uppercase; */
+}
+.ba-button img{
+
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background: #5474fda6;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	border: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+	border: 0 solid;
+}
+textarea {
+
+}
+.ba-header{
+	background: #5474fd url(../img/intro.jpg) 50% no-repeat;
+	background-size: cover;
+	padding-top: 95px;
+	min-height: 100vh;
+}
+.ba-intro{
+	padding-top: 260px;
+	max-width: 650px;
+	margin: 0 auto;
+	text-align: center;
+}
+.ba-intro__title{
+	font-size: 48px;
+	line-height: 1;
+	text-transform: uppercase;
+	margin: 0;
+}
+.ba-intro p{
+	margin: 0;
+	font-size: 22px;
+	letter-spacing: 0.31em;
+	margin-bottom: 50px;
+	position: relative;
+
+}
+.ba-search{
+	max-width: 650px;
+	background: #FFF;
+}
+.ba-form{
+	line-height: 60px;
+}
+.ba-form [name="search"]{
+	width: 500px;
+	text-align: center;
+	line-height: 60px;
+	border: none;
+}
+.ba-scroll{
+	font-size: 14px;
+	color: #fff;
+	display: block;
+	position:absolute;
+	left: 50%;
+	bottom: 120px;
+	line-height: 0.2em;
+	text-decoration: none;
+	transform: translateX(-50%);
+
+}
+.ba-scroll svg{
+	display: inline-block;
+	vertical-align: middle;
+	position:absolute;
+	fill:currentColor;
+	top: 15px;
+	left: 37px;
+}
+
+/* Section menu */
+.ba-section-menu{
+	background: #5474fd;
+	color: #ffffff;
+	text-transform: uppercase
+
+}
+.ba-header-bar{
+	display: flex;
+	justify-content: space-between;
+
+}
+.ba-bar-title{
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+.ba-menu{
+	display: flex;
+	list-style: none;
+	padding-top: 15px;
+
+}
+.ba-menu a{
+	font-size: 14px;
+	font-family: Aleo,sans-serif;
+	color: #FFF;
+	padding-left: 40px;
+	padding-top: 35px;
+	margin: 0;
+	align-self: center;
+}
+.ba-menu a:hover{
+	color: #ccc;
+}
+/* Section explore */
+.ba-container-explore{
+	padding-top: 100px;
+	padding-bottom: 132px;
+
+}
+.ba-section-explore{
+	background: url(../img/castle.jpg) 50% no-repeat;
+	background-size: cover;
+}
+.ba-explore-title{
+	font-size: 36px;
+}
+.ba-explore-col{
+	padding-top: 85px;
+}
+.ba-explore-col p{
+	margin-bottom: 35px;
+
+
+}
+.ba-button--explore{
+	text-transform: uppercase;
+	letter-spacing: 0.075em;
+	color: #FFF;
+	border: none;
+	line-height: 60px;
+	padding-left: 38px;
+	padding-right: 38px;
+}
+.ba-explore-img1{
+	padding-left: 65px;
+}
+.ba-explore-img2{
+	float: right;
+}
